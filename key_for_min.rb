@@ -15,11 +15,12 @@ def key_for_min_value(name_hash)
   elsif second < first
     semi_a = second
   end
-  binding.pry
   if semi_a < third
     final = semi_a
   elsif third < semi_a
     final = third
+    binding.pry
+
   end
   third
 end
