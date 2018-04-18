@@ -3,7 +3,7 @@
 
 # hash = {:blake => 500, :ashley => 2, :adam => 1}
 
-hash = { :ashley => 2, :blake => 500, :adam => 1}
+#hash = { :ashley => 2, :blake => 500, :adam => 1}
 
 require "pry"
 def key_for_min_value(name_hash)
